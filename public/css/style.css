@@ -1,0 +1,27 @@
+h1{
+	text-align: center;
+	font-size: 5em;
+	font-family: 'Permanent Marker', cursive;
+	color: #ffd700;
+}
+#feed{
+	height: 50em;
+	width: 75%;
+	background-color: white;
+	text-align: center;
+	box-shadow: 10px 10px 5px #888888;
+	margin-right: auto;
+	margin-left: auto;
+}
+.input{
+	margin-top: 4em;
+	text-align: center;
+}
+body{
+	background-image: url(hip_hop_bear.jpg);
+
+}
+canvas{
+	display: block;
+
+}

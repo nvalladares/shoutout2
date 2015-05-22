@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<title>Shoutouts</title>
+</head>
+<body>
+	<h1>Shoutouts</h1>
+
+	<form class="form-inline" action="/">
+	<div id="feed" class="box">
+		<p>
+		<% cool = @csv.join("<br>") %>
+		<%= cool %>
+
+		</p>
+	</div>
+	</form>
+
+
+
+	<form class="form-inline input" action="/newshouts" method="post">
+		<div class="form-group">
+		<input class="form-control" type="text" name="shouts">
+		</div>
+		<button type="submit" class="btn btn-primary">Shouts</button>
+	</form>
+
+</body>
+</html>
