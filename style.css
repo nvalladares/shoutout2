@@ -1,0 +1,16 @@
+h1{
+	text-align: center;
+}
+#feed{
+	height: 50em;
+	width: 50%;
+	background-color: blue;
+	margin-left: 17em;
+}
+.input{
+	margin-top: 7em;
+	text-align: center;
+}
+.box{
+	box-shadow: 10px 10px 5px #888888;
+}
